@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuPrincipal.master.cs" Inherits="Proyecto_Universitario_2.MenuPrincipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/menu_css.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+	<style type="text/css">
+		.nuevoEstilo1 {
+			background-color: #333333;
+			color: #DD71B7;
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+		}
+		.nuevoEstilo2 {
+			background-color: #333333;
+			color: #DD71B7;
+			font-family: arial, Helvetica, sans-serif;
+		}
+		.nuevoEstilo3 {
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			color: #DD71B7;
+		}
+		.nuevoEstilo4 {
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			text-decoration: none;
+			color: #DD71B7;
+		}
+		.nuevoEstilo5 {
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			color: #DD71B7;
+			text-decoration: none;
+		}
+		.nuevoEstilo6 {
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			color: #DD71B7;
+			background-color: #333333;
+		}
+		.nuevoEstilo7 {
+			font-family: arial, Helvetica, sans-serif;
+		}
+		.nuevoEstilo8 {
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			color: #DD71B7;
+			background-color: #333333;
+			text-decoration: none;
+		}
+		.auto-style1 {
+			height: 45px;
+		}
+		.auto-style2 {
+			background-color: #333333;
+			color: #DD71B7;
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			height: 45px;
+		}
+		.auto-style3 {
+			height: 52px;
+		}
+		.auto-style4 {
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			color: #DD71B7;
+			text-decoration: none;
+			height: 13px;
+		}
+		.auto-style5 {
+			font-family: arial, Helvetica, sans-serif;
+			font-size: 18px;
+			color: #DD71B7;
+			text-decoration: none;
+			height: 14px;
+		}
+	</style>
+</head>
+<body style="background-color:dimgray">
+    <form id="form1" runat="server">
+        <div>
+            <ul >
+<li class="auto-style2" > <a class="nuevoEstilo2" href="inicio_2.aspx" > Inicio</a > </li >
+<li class="auto-style1" > <a href="Frm_Administracion.aspx" class="nuevoEstilo4" >Administración</a > </li >
+<li class="auto-style3"> <a href="Frm_Registro.aspx" class="auto-style4" >Registro</a > </li>
+
+<li  class="auto-style3" style="float:right"> <a class="nuevoEstilo8" href="inicio.aspx" > Salir</a> </li>
+</ul >
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
